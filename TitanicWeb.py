@@ -4,11 +4,11 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import seaborn as sns 
 
-st.markdown("""
-            <center>
-<h1 >EDA on Titanic DataSet <h1/>
-            <center/>
-""", unsafe_allow_html=True)
+# st.markdown("""
+#             <center>
+# <h1 >EDA on Titanic DataSet <h1/>
+#             <center/>
+# """, unsafe_allow_html=True)
 
 df=pd.read_csv("Titanic-Dataset.csv")
 
